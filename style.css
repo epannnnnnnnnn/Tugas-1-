@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+}
+
+h1 {
+    text-align: center; /* Centers the header */
+}
+
+table {
+    width: 100%; /* Sets the table to use the full width of the page */
+    border-collapse: collapse; /* Merges table borders */
+    margin: 20px 0; /* Adds space above and below the table */
+}
+
+table, th, td {
+    border: 1px solid black; /* Adds border to table, headers, and cells */
+}
+
+th, td {
+    padding: 10px; /* Adds space inside table headers and cells */
+    text-align: left; /* Aligns text to the left */
+}
+
+caption {
+    font-weight: bold; /* Makes the caption text bold */
+    margin-bottom: 10px; /* Adds space below the caption */
+}
+
+img {
+    display: block; /* Ensures images are displayed as block elements */
+    margin: auto; /* Centers images */
+}
